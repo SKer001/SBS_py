@@ -14,6 +14,9 @@ print(number)
 print(bool)
 print(Str)
 
+
+################################       STR
+
 #   \" 在字串 = "
 Str = "HI \" nice" 
 print(Str)
@@ -48,6 +51,9 @@ print(text[0])
 #引索  優先最先的 還傳數值
 print(text.index("W"))
 
-#替換   W > w  優先最先的   只改輸出值  不改變數值
+#替換   W -> w  優先最先的   只改輸出值  不改變數值
 print(text.replace("W", "w"))
 
+
+
+################################    number
