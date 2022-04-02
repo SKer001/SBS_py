@@ -47,3 +47,11 @@ if TF1 or TF2:
     print(1)
 else:
     print(0)
+
+#not 沒有   (數值是用!=)
+TF1 = True
+TF2 = False
+if TF1 and not(TF2):
+    print(1)
+else:
+    print(0)
