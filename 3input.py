@@ -9,4 +9,4 @@ print(N)
 N = bool(input()) #True or False
 print(N)
 
-# 變數 = input()   等於  C++ >>    cin >> 變數
+# 變數 = input()   等於  C++    cin >> 變數
