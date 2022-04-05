@@ -11,11 +11,12 @@ class aboutme:
         self.A = age
         self.W = where
 
-N = input("你的名字: ")
-A = input("你的年齡: ")
-W = input("你哪裡人: ")
+Name = input("你的名字: ")
+Age = input("你的年齡: ")
+Where = input("你哪裡人: ")
 #myself包含aboutme的三種變數
-myself = aboutme(N,A,W)
+myself = aboutme(Name,Age,Where)
+#                self.N,self.A,self.W依次輸入
 
 print("我是 "+myself.N +"\n"+"我 "+myself.A +" 歲"+"\n"+"我來自 "+myself.W)
 with open("./file/12 namecard.txt",mode="w",encoding='utf-8') as File:
