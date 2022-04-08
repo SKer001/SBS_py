@@ -15,12 +15,12 @@ while IO>0:
             Stepcount += 1
         elif yournum > num:
             print("數字大了!")
-            Front = str(Front)
-            Behind = str(yournum)
+            Behind = yournum
             print("現在介於"+str(Behind)+"到"+str(Front)+"之間")
             Stepcount += 1
         elif yournum < num:
             print("數字小了!")
+            Front = yournum
             print("現在介於"+str(Behind)+"到"+str(Front)+"之間")
             Stepcount += 1
         else:
