@@ -4,7 +4,6 @@
 #        self.變數2 = 變數2
 
 
-#class相當於一個自定義的變數  aboutme是一個物件object
 class aboutme:
     def __init__(self,name,age,where):#裡面也可以創建函式 呼叫物件函式  代替物件的變數.函式名
         self.N = name
